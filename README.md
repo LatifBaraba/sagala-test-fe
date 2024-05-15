@@ -1,8 +1,60 @@
-# React + Vite
+# Sagala Front End Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+by Abdullatif Ali
 
-Currently, two official plugins are available:
+## Build with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React with Vite Js
+- Node v18.16.0
+- PNPM
+
+## Libraries
+
+### UI & Components
+
+- Tailwind Css
+- Chakra UI
+
+### State Management
+
+- Zustand
+
+### Validation
+
+- React Hook Form
+- ZOD
+
+### Table
+
+- React Table (by Tanstack)
+
+### Icons
+
+- React Icons
+- Lucide React
+
+### Date
+
+- Dayjs
+
+## Installation
+
+Use the package manager npm/yarn/pnpm.
+
+```bash
+pnpm i
+```
+
+## Run Application
+
+Use the package manager npm/yarn/pnpm.
+
+```bash
+pnpm dev
+```
+
+Or open this link [Sagala Test Latif](https://pip.pypa.io/en/stable/)
+
+## Last
+
+Thanks 🙋🏻‍♂️
