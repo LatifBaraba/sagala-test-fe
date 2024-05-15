@@ -1,0 +1,79 @@
+[
+    {
+      "id": 0,
+      "name": "yeti",
+      "progress": 75,
+      "quantity": 248,
+      "date": "Sun Jul 30 2000 03:28:53 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 1,
+      "name": "zombie",
+      "progress": 82,
+      "quantity": 186,
+      "date": "Fri Jan 05 2024 19:28:35 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 2,
+      "name": "serpent",
+      "progress": 91,
+      "quantity": 331,
+      "date": "Sun Feb 08 1970 10:49:56 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 3,
+      "name": "mermaid",
+      "progress": 48,
+      "quantity": 145,
+      "date": "Thu Oct 22 2020 06:16:05 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 4,
+      "name": "gargoyle",
+      "progress": 31,
+      "quantity": 198,
+      "date": "Fri Jan 05 2024 19:28:35 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 5,
+      "name": "werewolf",
+      "progress": 21,
+      "quantity": 271,
+      "date": "Sun Feb 08 1970 10:49:56 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 6,
+      "name": "angel",
+      "progress": 76,
+      "quantity": 238,
+      "date": "Thu Oct 22 2020 06:16:05 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 7,
+      "name": "angel",
+      "progress": 76,
+      "quantity": 238,
+      "date": "Thu Oct 22 2020 06:16:05 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 8,
+      "name": "angel",
+      "progress": 76,
+      "quantity": 238,
+      "date": "Thu Oct 22 2020 06:16:05 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 9,
+      "name": "angel",
+      "progress": 76,
+      "quantity": 238,
+      "date": "Thu Oct 22 2020 06:16:05 GMT+0700 (Western Indonesia Time)"
+    },
+    {
+      "id": 10,
+      "name": "angel",
+      "progress": 76,
+      "quantity": 238,
+      "date": "Thu Oct 22 2020 06:16:05 GMT+0700 (Western Indonesia Time)"
+    }
+  ]
