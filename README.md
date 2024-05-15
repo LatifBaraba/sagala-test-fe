@@ -53,7 +53,7 @@ Use the package manager npm/yarn/pnpm.
 pnpm dev
 ```
 
-Or open this link [Sagala Test Latif](https://pip.pypa.io/en/stable/)
+Or open this link [Sagala Test Latif](https://sagala-test-latif.netlify.app/)
 
 ## Last
 
