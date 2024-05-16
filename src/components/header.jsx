@@ -6,10 +6,12 @@ import { PhoneCall } from 'lucide-react'
 import { CircleAlert } from 'lucide-react'
 import { Palette } from 'lucide-react'
 import { AlignJustify } from 'lucide-react'
+import { X } from 'lucide-react'
 import { Menu, MenuButton, MenuList, MenuItem, Avatar } from '@chakra-ui/react'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import { useStoreSidebar } from '../store/sidebar'
+import { Search } from 'lucide-react'
 
 const Header = () => {
     const location = useLocation()
@@ -28,8 +30,12 @@ const Header = () => {
     }, [])
 
     return (
-        <div className={`sticky top-10 left-10 z-10 ${scrollActive && 'backdrop-blur-lg bg-white/30 shadow-sm'} rounded-xl transition ease-in delay-75`}>
-            <div className='flex flex-col md:flex-row w-full relative justify-between p-3 gap-3'>
+        <div
+            className={`sticky top-10 left-10 z-10 mb-5 ${
+                scrollActive && 'backdrop-blur-lg bg-white/30 shadow-sm'
+            } rounded-xl transition ease-in delay-75`}
+        >
+            <div className='flex flex-col md:flex-row w-full relative justify-between md:px-3 gap-3'>
                 {/* Left */}
                 <div className='flex flex-col gap-2'>
                     {/* Bread */}
@@ -38,10 +44,13 @@ const Header = () => {
                     <h2 className='text-4xl font-semibold'>Data Tables</h2>
                 </div>
                 {/* Search */}
-                <div className='flex items-center bg-white px-2 py-2 rounded-full gap-2 shadow-xl p-[10px]'>
-                    <input className='bg-[#f3f6fd] border-transparent grow rounded-full m-1 p-3 text-sm' placeholder='Search' />
-                    <div className='flex gap-3'>
-                        <AlignJustify className={`w-4 text-[#a0aec0] cursor-pointer block md:hidden`} onClick={() => setActive()}/>
+                <div className='flex items-center bg-white p-[10px] rounded-full justify-between shadow-sm'>
+                    <div className='relative w-full'>
+                        <Search className='w-4 absolute right-[7%] top-[20%]' />
+                        <input className='bg-[#f3f6fd] border-transparent w-full rounded-full p-3 text-sm' placeholder='Search' />
+                    </div>
+                    <div className='flex justify-between px-2 gap-2'>
+                        <AlignJustify className={`w-4 text-[#a0aec0] cursor-pointer block md:hidden`} onClick={() => setActive()} />
                         <PhoneCall className='w-4 text-[#a0aec0] cursor-pointer' />
                         <CircleAlert className='w-4 text-[#a0aec0] cursor-pointer' />
                         <Palette className='w-4 text-[#a0aec0] cursor-pointer' />

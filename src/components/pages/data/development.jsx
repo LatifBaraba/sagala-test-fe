@@ -216,7 +216,7 @@ const Development = () => {
                             <div className='grid grid-col-2 gap-4'>
                                 {/* Name */}
                                 <FormControl isInvalid={errors.name}>
-                                    <FormLabel htmlFor='name'>First name</FormLabel>
+                                    <FormLabel htmlFor='name'>Name</FormLabel>
                                     <Input id='name' placeholder='name' {...register('name')} />
                                     <FormErrorMessage>{errors.name && errors.name.message}</FormErrorMessage>
                                 </FormControl>

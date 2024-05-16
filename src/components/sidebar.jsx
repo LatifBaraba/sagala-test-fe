@@ -48,9 +48,9 @@ const Sidebar = () => {
 
     return (
         <div
-            className={`bg-white min-h-full z-20 w-[300px] p-6 md:flex flex-col gap-4 absolute ${
+            className={`bg-white h-full md:min-h-full z-20 w-[300px] p-6 md:flex flex-col gap-4 ${
                 active ? 'translate-x-0' : '-translate-x-full'
-            } md:fixed md:translate-x-0 transition ease-in delay-100`}
+            } fixed md:translate-x-0 transition ease-in delay-100`}
         >
             <div className='cursor-pointer md:hidden' onClick={() => setActive()}>
                 <X className='absolute top-3 right-3' />
