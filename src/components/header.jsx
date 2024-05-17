@@ -1,12 +1,10 @@
 import React from 'react'
 import Breadcrumbs from './pages/Breadcrumb'
 import { useLocation } from 'react-router-dom'
-import { Input } from '@chakra-ui/react'
 import { PhoneCall } from 'lucide-react'
 import { CircleAlert } from 'lucide-react'
 import { Palette } from 'lucide-react'
 import { AlignJustify } from 'lucide-react'
-import { X } from 'lucide-react'
 import { Menu, MenuButton, MenuList, MenuItem, Avatar } from '@chakra-ui/react'
 import { useEffect } from 'react'
 import { useState } from 'react'
@@ -14,7 +12,6 @@ import { useStoreSidebar } from '../store/sidebar'
 import { Search } from 'lucide-react'
 
 const Header = () => {
-    const location = useLocation()
     const [scrollActive, setScrollActive] = useState(false)
     const { active, setActive } = useStoreSidebar()
 
@@ -31,11 +28,11 @@ const Header = () => {
 
     return (
         <div
-            className={`sticky top-10 left-10 z-10 mb-5 ${
+            className={`sticky top-10 left-10 z-10 p-[10px] mb-5 ${
                 scrollActive && 'backdrop-blur-lg bg-white/30 shadow-sm'
             } rounded-xl transition ease-in delay-75`}
         >
-            <div className='flex flex-col md:flex-row w-full relative justify-between md:px-3 gap-3'>
+            <div className='flex flex-col md:flex-row w-full relative justify-between gap-3'>
                 {/* Left */}
                 <div className='flex flex-col gap-2'>
                     {/* Bread */}
